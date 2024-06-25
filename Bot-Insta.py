@@ -1,6 +1,7 @@
 import time
 import pyautogui
-"""
+
+
 pyautogui.click(122,1060,1)
 time.sleep(1)
 pyautogui.typewrite("Edge", 0.3)
@@ -17,9 +18,9 @@ time.sleep(9)
 
 pyautogui.click(717,855,1)
 time.sleep(1)
-"""
 
-for i in range(1):
+
+for i in range(50):
     if pyautogui.locateCenterOnScreen('heart.png'):
         
         pyautogui.click(1828, 556)
